@@ -25,12 +25,11 @@ def main():
 
     pygame.quit()
 
-print("done")
+
 
 
 if __name__ == "__main__":
     main()
 
 
-
-print("hello munch")
+print("Hello munch!")
