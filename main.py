@@ -35,5 +35,3 @@ if __name__ == "__main__":
 
 
 
-# this is where we get the keys and functions to work
-
