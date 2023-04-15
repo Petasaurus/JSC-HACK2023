@@ -28,6 +28,9 @@ def main():
 print("done")
 
 
+print("images go here")
+
+
 if __name__ == "__main__":
     main()
 
