@@ -1,7 +1,6 @@
 import pygame
 
 
-
 WIDTH, HEIGHT = 900, 500
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("JSC Hack Game")
@@ -25,17 +24,11 @@ def main():
 
     pygame.quit()
 
-print("done")
-
-
-print("images go here")
-
 
 if __name__ == "__main__":
     main()
 
 
 
-print("hello munch")
 
 # this is where we get the keys and functions to work
