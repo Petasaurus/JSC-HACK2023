@@ -13,7 +13,7 @@ BLACK = (0, 0, 0)
 # BORDER = pygame.Rect(0, 0, 10, HEIGHT) # LEFT BORDER
 
 FPS = 60
-VEL = 5
+VEL = 20
 SPACESHIP_WIDTH, SPACESHIP_HEIGHT = 55, 40
 
 YELLOW_SPACESHIP_IMAGE = pygame.image.load(
@@ -23,7 +23,7 @@ RED_SPACESHIP_IMAGE = pygame.image.load(
     os.path.join('Assets', 'spaceship_red.png'))
 RED_SPACESHIP = pygame.transform.rotate(pygame.transform.scale(RED_SPACESHIP_IMAGE, (SPACESHIP_WIDTH,SPACESHIP_HEIGHT)), 270)
 
-# this is the function where it changes the window to just a blank white screen
+# this is the background
 def draw_window(red, yellow):
     WIN.fill(WHITE)
     WIN.blit(BACKGROUND,(0,0))
