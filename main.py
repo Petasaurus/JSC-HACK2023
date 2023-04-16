@@ -2,7 +2,7 @@ import pygame
 import os
 
 # the scaling of our window 
-WIDTH, HEIGHT = 1440, 900
+WIDTH, HEIGHT = 1440, 760
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("JSC Hack Game")
 
@@ -40,7 +40,7 @@ def yellow_handle_movement(keys_pressed, yellow):
         yellow.x += VEL
     if keys_pressed[pygame.K_w] and yellow.y - VEL > 0 : # UP
         yellow.y -= VEL
-    if keys_pressed[pygame.K_s] and yellow.y + VEL + yellow.height < HEIGHT - 75: # DOWN
+    if keys_pressed[pygame.K_s] and yellow.y + VEL + yellow.height < HEIGHT - 10: # DOWN
         yellow.y += VEL
 
 def red_handle_movement(keys_pressed, red):
@@ -50,7 +50,7 @@ def red_handle_movement(keys_pressed, red):
         red.x += VEL
     if keys_pressed[pygame.K_UP] and red.y - VEL > 0 : # UP
         red.y -= VEL
-    if keys_pressed[pygame.K_DOWN] and red.y + VEL + red.height < HEIGHT - 75: # DOWN
+    if keys_pressed[pygame.K_DOWN] and red.y + VEL + red.height < HEIGHT - 10: # DOWN
         red.y += VEL
 
 # this is the function in which the window is opened
