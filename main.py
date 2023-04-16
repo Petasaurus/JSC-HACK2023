@@ -1,8 +1,11 @@
 import pygame
 
+pygame.init()
+
+BACKGROUND = pygame.image.load("lvl3BG (1).png")
 
 # the scaling of our window 
-WIDTH, HEIGHT = 900, 500
+WIDTH, HEIGHT = 1440, 900
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("JSC Hack Game")
 
@@ -12,6 +15,7 @@ print
 # this is the function where it changes the window to just a blank white screen
 def draw_window():
     WIN.fill(WHITE)
+    WIN.blit(BACKGROUND,(0,0))
     pygame.display.update()
 
 
