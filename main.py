@@ -50,7 +50,7 @@ def main():
         if keys_pressed[pygame.K_w]:  # UP
             yellow.y -= VEL
         if keys_pressed[pygame.K_s]:  # DOWN
-            yellow.y -= VEL
+            yellow.y += VEL
 
         draw_window(red, yellow)
 
