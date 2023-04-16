@@ -2,7 +2,7 @@ import pygame
 
 pygame.init()
 
-BACKGROUND = pygame.image.load("lvl3BG (1).png")
+BACKGROUND = pygame.image.load("lvl3BG (2).png")
 
 # the scaling of our window 
 WIDTH, HEIGHT = 1440, 900
