@@ -10,7 +10,7 @@ WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("JSC Hack Game")
 
 WHITE = (255, 255, 255)
-
+print
 
 # this is the function where it changes the window to just a blank white screen
 def draw_window():
