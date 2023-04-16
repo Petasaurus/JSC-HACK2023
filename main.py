@@ -6,6 +6,7 @@ WIDTH, HEIGHT = 900, 500
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("JSC Hack Game")
 
+BACKGROUND = pygame.image.load("lvl3BG (2).png")
 WHITE = (255, 255, 255)
 
 FPS = 60
@@ -22,6 +23,7 @@ RED_SPACESHIP = pygame.transform.rotate(pygame.transform.scale(RED_SPACESHIP_IMA
 # this is the function where it changes the window to just a blank white screen
 def draw_window(red, yellow):
     WIN.fill(WHITE)
+    WIN.blit(BACKGROUND,(0,0))
     WIN.blit(YELLOW_SPACESHIP, (yellow.x,yellow.y))
     WIN.blit(YELLOW_SPACESHIP, (red.x,red.y))
     pygame.display.update()
