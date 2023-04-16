@@ -2,7 +2,7 @@ import pygame
 import os
 
 # the scaling of our window 
-WIDTH, HEIGHT = 900, 500
+WIDTH, HEIGHT = 1440, 900
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("JSC Hack Game")
 
