@@ -79,7 +79,7 @@ def main():
     while(i):
         WIN.blit(GAMEOVER,(0,0))
         pygame.display.update()
-        if i == 500: 
+        if i == 1100: 
             break
             
         i += 1
